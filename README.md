@@ -1,4 +1,7 @@
-<b>screenshots uploaded</b>
+<h1>screenshots uploaded</h1>
+
+
+
 ![a11](https://github.com/ayushchaubey17/SearchColleges/assets/123767430/4397dd09-08eb-4a2f-b035-784ecfe0dd9f)
 ![a12](https://github.com/ayushchaubey17/SearchColleges/assets/123767430/350247cf-0b67-480a-a9cb-7368d99c3de7)
 ![a13](https://github.com/ayushchaubey17/SearchColleges/assets/123767430/cfa3b1b4-a779-4d0a-83f1-6c108a702e8e)
