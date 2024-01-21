@@ -2,18 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search Colleges</title>
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
-    
-    <input type="text" name="" id="" placeholder="search country">
+
+    <h4>Search  college </h4>
+
+  <div >
+
+    <input type="text" name="" class="" id="" placeholder="search country/city">
     <button>search</button>
 
-<ul id="list">
+  </div>  
 
-</ul>
+<ol id="list">
+
+</ol>
 
 
 
@@ -28,8 +35,7 @@ let button = document.querySelector('button');
 button.addEventListener("click",async ()=>{
 
     let country = document.querySelector("input").value;
-    let colleges =await viewColl(country);
-    
+    let colleges =await viewColl(country);  
     show(colleges);
 })
 
@@ -44,6 +50,7 @@ let show =(colleges) =>{
         let li = document.createElement('li');
         li.innerText = college.name;
       div.appendChild(li);
+
 
 
         let a = document.createElement('a');

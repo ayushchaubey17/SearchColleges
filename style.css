@@ -1,0 +1,23 @@
+
+input ,button{
+    border-radius: 5px;
+}
+input:focus{
+    border: 2px solid blue;
+}
+
+div{
+    margin-top: -10px;
+}
+input{
+    text-align: center;
+    align-items: center;
+}
+*{
+    background: aliceblue;
+}
+h4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
